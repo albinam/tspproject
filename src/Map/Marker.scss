@@ -1,0 +1,21 @@
+
+
+.location-map_marker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+  border: 5px solid green;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+  &_index{
+    text-align: center;
+    font-family: Roboto, serif;
+    font-weight:bold;
+    margin-left: 5px;
+    font-size: 10px;
+  }
+}

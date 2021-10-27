@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tspproject/static/css/main.0ad8e0e0.chunk.css",
+    "main.js": "/tspproject/static/js/main.1060bfeb.chunk.js",
+    "main.js.map": "/tspproject/static/js/main.1060bfeb.chunk.js.map",
+    "runtime-main.js": "/tspproject/static/js/runtime-main.99aacb6b.js",
+    "runtime-main.js.map": "/tspproject/static/js/runtime-main.99aacb6b.js.map",
+    "static/css/2.a95be28f.chunk.css": "/tspproject/static/css/2.a95be28f.chunk.css",
+    "static/js/2.e0f7ca0a.chunk.js": "/tspproject/static/js/2.e0f7ca0a.chunk.js",
+    "static/js/2.e0f7ca0a.chunk.js.map": "/tspproject/static/js/2.e0f7ca0a.chunk.js.map",
+    "static/js/3.eaf48d0b.chunk.js": "/tspproject/static/js/3.eaf48d0b.chunk.js",
+    "static/js/3.eaf48d0b.chunk.js.map": "/tspproject/static/js/3.eaf48d0b.chunk.js.map",
+    "index.html": "/tspproject/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/tspproject/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.0ad8e0e0.chunk.css.map": "/tspproject/static/css/main.0ad8e0e0.chunk.css.map",
+    "static/js/2.e0f7ca0a.chunk.js.LICENSE.txt": "/tspproject/static/js/2.e0f7ca0a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99aacb6b.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.e0f7ca0a.chunk.js",
+    "static/css/main.0ad8e0e0.chunk.css",
+    "static/js/main.1060bfeb.chunk.js"
+  ]
+}

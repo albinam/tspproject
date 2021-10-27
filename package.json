@@ -1,4 +1,5 @@
 {
+  "homepage": "https://albinam.github.io/tspproject",
   "name": "tspproject",
   "version": "0.1.0",
   "private": true,
@@ -18,6 +19,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,6 +46,7 @@
   },
   "devDependencies": {
     "dotenv": "^10.0.0",
+    "gh-pages": "^3.2.3",
     "google-map-react": "^2.1.10"
   }
 }

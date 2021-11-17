@@ -5,7 +5,39 @@
   &_params {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 600px;
     justify-content: center;
+    font-size: 12px;
+
+    .legend {
+      flex-direction: column;
+
+      .popup{
+        z-index: 100;
+      }
+
+      &_line {
+        flex-direction: row;
+        display: flex;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 12px;
+      }
+    }
+
+    .blue {
+      margin-right: 2px;
+      width: 15px;
+      height: 15px;
+      background: #349aff;
+    }
+
+    .purple {
+      margin-right: 2px;
+      width: 15px;
+      height: 15px;
+      background: #430284;
+    }
   }
 }

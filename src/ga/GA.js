@@ -1,11 +1,11 @@
 const distance = (x1, y1, x2, y2) => {
     let R = 6378137;
-    let dLat = (x2-x1) * Math.PI / 180;
-    let dLng = (y1-y2) * Math.PI / 180;
-    let a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-        Math.cos(x1 * Math.PI / 180 ) * Math.cos(x2 * Math.PI / 180 ) *
-        Math.sin(dLng/2) * Math.sin(dLng/2);
-    let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    let dLat = (x2 - x1) * Math.PI / 180;
+    let dLng = (y1 - y2) * Math.PI / 180;
+    let a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(x1 * Math.PI / 180) * Math.cos(x2 * Math.PI / 180) *
+        Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     let d = R * c;
     return Math.round(d);
 };

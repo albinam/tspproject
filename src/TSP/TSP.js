@@ -1,10 +1,10 @@
 import React, {useEffect, useRef, useState} from "react";
 import {Slider, Button, Select} from 'antd';
-import GA from "./GA";
+import GA from "../ga/GA";
 import Marker from "../Map/Marker";
 import "./TSP.scss"
 import GoogleMapReact from 'google-map-react';
-import Popup from "./Popup";
+import Popup from "../Popup/Popup";
 
 const {Option} = Select;
 
